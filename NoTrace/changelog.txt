@@ -1,0 +1,10 @@
+NoTrace Changelog
+
+0.2
+Made buttons fancier
+Fixed Content Security issues using listeners
+Added ability to clear cookies
+Added popup after something has been done
+
+0.1 
+Extension Created

@@ -1,0 +1,55 @@
+body {
+  min-width: 300px;
+  padding: 5px;
+}
+#noHistory {
+  background-color: #f44336;
+  color: white;
+
+}
+#gotoHistory {
+  background-color: #008CBA;
+  color: white;
+}
+.heading {
+  text-align: center;
+  font-size: 18px;
+
+}
+#no {
+  color: #bf0000;
+}
+.clearButton {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Progress Bars */
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 68%; }
+}
