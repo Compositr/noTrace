@@ -1,4 +1,20 @@
-NoTrace Changelog
+Changelog
+
+0.5
+Added new page: Chrome Options (currently blank)
+Made navigation usable.
+
+0.4
+Changed how we record changes
+Added to GitHub
+Added navigation (currently doesn't do anything)
+
+
+0.3
+Added option to speed up browser
+Added conformation when cookies have been Cleared
+Sped up everything
+
 
 0.2
 Made buttons fancier
@@ -6,5 +22,5 @@ Fixed Content Security issues using listeners
 Added ability to clear cookies
 Added popup after something has been done
 
-0.1 
+0.1
 Extension Created

@@ -2,6 +2,9 @@ body {
   min-width: 300px;
   padding: 5px;
 }
+#chromeHeading {
+  color:#f58020;
+}
 #noHistory {
   background-color: #f44336;
   color: white;
