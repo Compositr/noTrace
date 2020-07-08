@@ -14,7 +14,7 @@ Sematic 2.0.0 Example
 
 The first number (x) is a major change, often feature breaking or massive overhauls. Y is a minor change, without too much
 effect on anything else. This could be a GUI change or a processing change. Finally, Z is a bug fix or slight patch. These
-don't affect the user experience, but instead fix a bug or change how the software operates behind the scence, or in the 
+don't affect the user experience, but instead fix a bug or change how the software operates behind the scene, or in the 
 background
 
 
