@@ -20,6 +20,9 @@ type: "popup"
 
 
 // optimisation section button
+// WARNING: strange blob errors
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var link4 = document.getElementById('optimiseSafe');
     // onClick's logic below:
@@ -90,7 +93,7 @@ var callback = function () {
       function clear () {
         var historyCleared = 0;
         chrome.browsingData.remove({
-          "since": oneWeekAgo
+          "since": 0 
         }, {
           "appcache": false,
           "cache": false,

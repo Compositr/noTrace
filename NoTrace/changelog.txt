@@ -1,8 +1,43 @@
-Changelog
+=========================                                                                     |========================|  
+Changelog                                                                                     | Current Stable: 1.5.1  |
+=========================                                                                     |========================|
 
-0.5
+
+-------------------------
+How we record changes
+-------------------------
+Currently, we have swapped over to Sematic 2.0.0. This swap does not change previous versions (before 1.5.0). Version
+numbers are represented in 3 digits, separated by periods (full stops). 
+
+Sematic 2.0.0 Example
+[x.y.z]
+
+The first number (x) is a major change, often feature breaking or massive overhauls. Y is a minor change, without too much
+effect on anything else. This could be a GUI change or a processing change. Finally, Z is a bug fix or slight patch. These
+don't affect the user experience, but instead fix a bug or change how the software operates behind the scence, or in the 
+background
+
+
+-------------------------
+Changes
+-------------------------
+
+
+1.5.2 Dev Release 1 (1.5.2 DEV-1)
+Fixed errors related to CSP on the cookie popup page
+Changed hisotry erase to clear history of all time, instead of just one week ago
+---
+TO DO: Replace Bootstrap 4 due to CSP and compatibility issues
+
+
+1.5.1 (1.5.0 R-2)
+Disabled chrome options page due to bugs, will be back.
+
+
+1.5.0
 Added new page: Chrome Options (currently blank)
 Made navigation usable.
+Changed the way we record changes using the Sematic System (2.0.0).
 
 0.4
 Changed how we record changes
