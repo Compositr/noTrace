@@ -19,6 +19,10 @@ body {
   font-size: 18px;
 
 }
+.top-heading {
+  text-align: center;
+  font-size: 32px;
+}
 #no {
   color: #bf0000;
 }

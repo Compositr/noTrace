@@ -22,40 +22,65 @@ background
 Changes
 -------------------------
 
+1.6.0 Beta Release 1
+Same as before, minor improvements
 
-1.5.2 Dev Release 1 (1.5.2 DEV-1)
+
+1.6.0 Dev Release 2 (1.5.2 DEV-2)
+Added link to flags page from the chrome links page
+Added warnings on experimental features
+Changed spacing a little
+
+
+
+1.6.0 Dev Release 1 (1.5.2 DEV-1)
+
 Fixed errors related to CSP on the cookie popup page
-Changed hisotry erase to clear history of all time, instead of just one week ago
----
-TO DO: Replace Bootstrap 4 due to CSP and compatibility issues
+Changed history erase to clear history of all time, instead of just one week ago
+Optimised JS
+Changed spacing between headings 
+Fixed undefined errors
+Fixed weird errors with chromeLinks.html page
+Moved stuff around
+Re-enabled chrome page
+Using a separate javascript file for separate pages
+Changed styling
+Chrome page now works
+
 
 
 1.5.1 (1.5.0 R-2)
+
 Disabled chrome options page due to bugs, will be back.
 
 
 1.5.0
+
 Added new page: Chrome Options (currently blank)
 Made navigation usable.
 Changed the way we record changes using the Sematic System (2.0.0).
 
 0.4
+
 Changed how we record changes
 Added to GitHub
 Added navigation (currently doesn't do anything)
 
 
 0.3
+
 Added option to speed up browser
 Added conformation when cookies have been Cleared
 Sped up everything
 
 
 0.2
+
 Made buttons fancier
 Fixed Content Security issues using listeners
 Added ability to clear cookies
 Added popup after something has been done
 
 0.1
+
 Extension Created
