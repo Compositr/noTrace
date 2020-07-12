@@ -7,7 +7,6 @@ chrome.windows.create({
 url: chrome.runtime.getURL("file"),
 type: "popup"
 }, function(win) {
- win represents the Window object from windows API
  Do something after opening
 });
 
@@ -19,9 +18,8 @@ type: "popup"
 
 
 
-// optimisation section button
-// WARNING: strange blob errors
 
+// optimisation section button
 
 document.addEventListener('DOMContentLoaded', function() {
     var link4 = document.getElementById('optimiseSafe');
@@ -80,20 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
         clear();
     });
 });
-
-// gets how long a week is
-
-var millisecondsPerWeek = 1000 * 60 * 60 * 24 * 7;
-var oneWeekAgo = (new Date()).getTime() - millisecondsPerWeek;
-var callback = function () {
-
-  };
-
       // clears history
       function clear () {
         var historyCleared = 0;
         chrome.browsingData.remove({
-          "since": 0 
+          "since": 0
         }, {
           "appcache": false,
           "cache": false,
@@ -109,14 +98,14 @@ var callback = function () {
           "passwords": false,
           "serviceWorkers": false,
           "webSQL": false
-        }, callback);
+        });
 
       }
 //clear cookies
 function clearCookie () {
   var historyCleared = 0;
   chrome.browsingData.remove({
-    "since": oneWeekAgo
+    "since": 0
   }, {
     "appcache": false,
     "cache": false,
@@ -132,7 +121,7 @@ function clearCookie () {
     "passwords": false,
     "serviceWorkers": false,
     "webSQL": false
-  }, callback);
+  });
 
 }
 
@@ -141,7 +130,7 @@ function clearCookie () {
 function optimiseSafe () {
   var historyCleared = 0;
   chrome.browsingData.remove({
-    "since": oneWeekAgo
+    "since": 0
   }, {
     "appcache": true,
     "cache": true,
@@ -157,6 +146,6 @@ function optimiseSafe () {
     "passwords": false,
     "serviceWorkers": false,
     "webSQL": false
-  }, callback);
+  });
 
 }
