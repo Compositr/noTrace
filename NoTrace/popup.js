@@ -16,6 +16,20 @@ type: "popup"
 */
 
 
+//chrome-extension://ccmoblknljbgppdfapohgpkblbdjodai/options.html
+document.addEventListener('DOMContentLoaded', function() {
+    var linkSettings = document.getElementById('settings');
+    // onClick's logic below:
+    linkSettings.addEventListener('click', function() {
+      chrome.windows.create({
+  url: chrome.runtime.getURL("options.html"),
+  type: "popup"
+}, function(win) {
+  // win represents the Window object from windows API
+  // Do something after opening
+});
+  });
+});
 
 
 
@@ -62,6 +76,9 @@ document.addEventListener('DOMContentLoaded', function() {
         gotoHistory();
     });
 });
+
+
+
 
 //see History
 function gotoHistory() {

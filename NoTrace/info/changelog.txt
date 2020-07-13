@@ -1,0 +1,100 @@
+=========================                                                                     |========================|
+Changelog                                                                                     | Current Stable: 1.5.1  |
+=========================                                                                     |========================|
+
+
+-------------------------
+How we record changes
+-------------------------
+Currently, we have swapped over to Sematic 2.0.0. This swap does not change previous versions (before 1.5.0). Version
+numbers are represented in 3 digits, separated by periods (full stops).
+
+Sematic 2.0.0 Example
+[x.y.z]
+
+The first number (x) is a major change, often feature breaking or massive overhauls. Y is a minor change, without too much
+effect on anything else. This could be a GUI change or a processing change. Finally, Z is a bug fix or slight patch. These
+don't affect the user experience, but instead fix a bug or change how the software operates behind the scene, or in the
+background
+
+
+-------------------------
+Changes
+-------------------------
+
+1.6.0 Dev Release 4 (1.6.0 Dev 4)
+Added modals to some areas of page
+Added bootstrap JS.
+Added warning to options page
+Added jQuery
+Changed layout of options page
+Added navbar to options page
+
+
+1.6.0 Dev Release 3 (1.6.0 Dev 3)
+Changed some naming
+Added a link to settings page (settings page currently not working/in use)
+
+
+1.6.0 Beta Release 1 (1.6.0 Beta 1)
+Same as before (1.6.0 DEV-2), with some minor improvements
+
+
+1.6.0 Dev Release 2 (1.6.0 DEV-2)
+Added link to flags page from the chrome links page
+Added warnings on experimental features
+Changed spacing a little
+
+
+
+1.6.0 Dev Release 1 (1.6.0 DEV-1)
+
+Fixed errors related to CSP on the cookie popup page
+Changed history erase to clear history of all time, instead of just one week ago
+Optimised JS
+Changed spacing between headings
+Fixed undefined errors
+Fixed weird errors with chromeLinks.html page
+Moved stuff around
+Re-enabled chrome page
+Using a separate JavaScript file for separate pages
+Changed styling
+Chrome page now works
+
+
+
+1.5.1 (1.5.0 R-2)
+
+Disabled chrome options page due to bugs, will be back.
+
+
+1.5.0
+
+Added new page: Chrome Options (currently blank)
+Made navigation usable.
+Changed the way we record changes using the Sematic System (2.0.0).
+
+0.4
+
+Changed how we record changes
+Added to GitHub
+Added navigation (currently doesn't do anything)
+
+
+0.3
+
+Added option to speed up browser
+Added conformation when cookies have been Cleared
+Sped up everything
+
+
+0.2
+
+Made buttons fancier
+Fixed Content Security issues using listeners
+Added ability to clear cookies
+Added popup after something has been done
+
+0.1
+
+Extension Created

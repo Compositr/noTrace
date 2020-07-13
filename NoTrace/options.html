@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-        margin: 10px;
-      }
-      * {
-        font-family: sans-serif;
-      }
-    </style>
+    <title>NoTrace Options Page</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          <script src="js/jQuery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+      <script src="options.js"></script>
+      <link rel="stylesheet" href="options.css">
   </head>
   <body>
-    <div id="buttonDiv">
-    </div>
-    <div>
-      <p>Options Page</p>
-    </div>
-    <button type="button">Clear</button>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Warning:</strong> This page is currently under development. Not eveything may work as expected!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<nav class="navbar navbar-dark bg-primary">
+<a class="navbar-brand" href="#">
+<img src="./images/48.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+NoTrace Settings
+</a>
+</nav>
+
+
+
   </body>
-  <script src="options.js"></script>
+
 </html>
