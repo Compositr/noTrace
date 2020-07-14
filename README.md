@@ -8,3 +8,6 @@ To get the source code of the latest stable version, go to the releases tab on t
 
 ## Using noTrace 
 More detailed instructions on how to use noTrace can be found in the wiki pages. To open the extension, click on the extension icon in the top right (you may have to clikc the puzzle icon to access the full page of extensions). 
+
+## Release Info
+Releases will now be in a separate branch - the release branch. The master branch will now only be used for Dev Releases, while the release branch will be used for main releases (beta releases and stable releases)
