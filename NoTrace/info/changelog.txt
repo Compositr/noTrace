@@ -25,6 +25,7 @@ Changes
 1.6.0 Dev Release 6 (1.6.0 Dev 6)
 Changed way settings page looks
 Changed modal
+Added some toggles to settings page
 
 1.6.0 Dev Release 5 (1.6.0 Dev 5)
 Added working navbar to options page
