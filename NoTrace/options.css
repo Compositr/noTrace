@@ -1,0 +1,132 @@
+body {
+
+}
+.outsideHeading {
+  font-size: 24px;
+  padding-left: 12px;
+  padding-top: 32px;
+
+}
+#mainContent {
+  padding-left: 12px;
+  padding-top: 32px;
+}
+.bodyHeading {
+  font-size: 24px;
+}
+
+/* Toggle switches */
+
+.switchLabel {
+    display: inline-block;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+.knob-wrap {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.light {
+  display: inline-block;
+  width: calc( calc( 2rem / 2 ) / 2.5 );
+  height: calc( calc( 2rem / 2 ) / 2.5 );
+  border-radius: 100%;
+  background-color: #ddd;
+  margin: 0 0 0 1rem;
+  box-shadow: 0 0 0 0.25rem #cacaca;
+  -webkit-transition: background 400ms ease;
+  transition: background 400ms ease;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 2rem;
+  height: calc( 2rem / 2 );
+  background-color: #ddd;
+  border-radius: calc( 2rem / 2 );
+  outline: none;
+  -webkit-transition: background 450ms ease;
+  transition: background 450ms ease;
+  box-shadow: 0 0 0 3px #cacaca;
+}
+input[type="checkbox"]:before, input[type="checkbox"]:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-radius: 100%;
+  -webkit-transition: background 450ms ease, -webkit-transform 450ms ease;
+  transition: background 450ms ease, -webkit-transform 450ms ease;
+  transition: background 450ms ease, transform 450ms ease;
+  transition: background 450ms ease, transform 450ms ease, -webkit-transform 450ms ease;
+}
+input[type="checkbox"]:before {
+  width: calc( 2rem / 2 );
+  height: calc( 2rem / 2 );
+  background-color: #E53935;
+}
+input[type="checkbox"]:checked:before {
+  background-color: #43A047;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+input[type="checkbox"].conic {
+  -webkit-transition: background 450ms ease, -webkit-transform 450ms ease;
+  transition: background 450ms ease, -webkit-transform 450ms ease;
+  transition: background 450ms ease, transform 450ms ease;
+  transition: background 450ms ease, transform 450ms ease, -webkit-transform 450ms ease;
+}
+input[type="checkbox"].conic:before {
+  box-shadow: inset 0 0 0 3px #9f1815;
+  background: conic-gradient(#E53935, #9f1815);
+}
+input[type="checkbox"].conic:checked:before {
+  box-shadow: inset 0 0 0 3px #255827;
+  background: conic-gradient(#43A047, #255827);
+  -webkit-transform: translateX(100%) rotate(360deg);
+          transform: translateX(100%) rotate(360deg);
+}
+input[type="checkbox"].knob {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #b7b7b7), to(#ddd));
+  background: linear-gradient(to bottom, #b7b7b7 25%, #ddd 100%);
+}
+input[type="checkbox"].knob:before, input[type="checkbox"].knob:after {
+  -webkit-transform: translate(0, -2px) rotate(0deg);
+          transform: translate(0, -2px) rotate(0deg);
+}
+input[type="checkbox"].knob:before {
+  box-shadow: 0 0 0 1px #ddd, 0 0 0 1px #777;
+  background: conic-gradient(#ddd, #aaaaaa);
+}
+input[type="checkbox"].knob:after {
+  width: calc( 2rem / 2 );
+  height: calc( 2rem / 2 );
+  box-shadow: inset 0 0 0 1.5px #919191, 1.5px 1.5px 0 0 #9d9d9d, 2.5px 2.5px 0 0 #9d9d9d, 3px 3px 0 0 #9d9d9d;
+}
+input[type="checkbox"].knob:checked:before {
+  -webkit-transform: translate(100%, -2px) rotate(360deg);
+          transform: translate(100%, -2px) rotate(360deg);
+}
+input[type="checkbox"].knob:checked:after {
+  -webkit-transform: translate(100%, -2px);
+          transform: translate(100%, -2px);
+}
+input[type="checkbox"].knob:checked + .light {
+  background-color: #FFFF00;
+}

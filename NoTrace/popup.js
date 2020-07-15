@@ -16,6 +16,14 @@ type: "popup"
 */
 
 
+//chrome-extension://ccmoblknljbgppdfapohgpkblbdjodai/options.html
+document.addEventListener('DOMContentLoaded', function() {
+    var linkSettings = document.getElementById('settings');
+    // onClick's logic below:
+    linkSettings.addEventListener('click', function() {
+chrome.tabs.create({url: "chrome-extension://ccmoblknljbgppdfapohgpkblbdjodai/options.html"});
+  });
+});
 
 
 
@@ -62,6 +70,9 @@ document.addEventListener('DOMContentLoaded', function() {
         gotoHistory();
     });
 });
+
+
+
 
 //see History
 function gotoHistory() {

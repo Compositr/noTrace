@@ -1,25 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-        margin: 10px;
-      }
-      * {
-        font-family: sans-serif;
-      }
-    </style>
+    <title>NoTrace Options Page</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          <script src="js/jQuery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+      <script src="options.js"></script>
+      <link rel="stylesheet" href="options.css">
   </head>
   <body>
-    <div id="buttonDiv">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Warning:</strong> Page is currently under development, and not everything may work as expected or may not work at all!
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
-    <div>
-      <p>Options Page</p>
+
+<!-- Navigation !-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<a class="navbar-brand" href="options.html"> <img src="./images/48.png" width="30" height="30" class="d-inline-block align-top" alt="notrace" loading="lazy"> NoTrace</a>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div class="navbar-nav">
+    <a class="nav-item nav-link active" href="options.html">General</a>
+    <a class="nav-item nav-link" href="#"  data-toggle="modal" data-target="#notReadyModal">Advanced</a>
+    <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#notReadyModal">Help</a>
+  </div>
+</div>
+</nav>
+
+<!-- Main Content !-->
+
+
+<div id="mainContent">
+    <h1 class="bodyHeading">General Settings</h1>
+    <!-- does nothing yet !-->
+    <label class="switchLabel">Send anonymous user data</label> <input id="dataCheckbox" type="checkbox"/>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Modals !-->
+
+
+<div class="modal fade" id="notReadyModal" tabindex="-1" role="dialog" aria-labelledby="notReadyModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Page not ready</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>This page is currently not ready yet! Please check back in the next update</p>
+      </div>
     </div>
-    <button type="button">Clear</button>
+  </div>
+</div>
+
   </body>
-  <script src="options.js"></script>
+
 </html>
