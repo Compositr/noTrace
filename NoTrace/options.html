@@ -11,19 +11,51 @@
   </head>
   <body>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Warning:</strong> This page is currently under development. Not eveything may work as expected!
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
+      <strong>Warning:</strong> Page is currently under development, and not everything may work as expected or may not work at all!
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+<!-- Navigation !-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<a class="navbar-brand" href="options.html"> <img src="./images/48.png" width="30" height="30" class="d-inline-block align-top" alt="notrace" loading="lazy"> NoTrace</a>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div class="navbar-nav">
+    <a class="nav-item nav-link active" href="options.html">General</a>
+    <a class="nav-item nav-link" href="#"  data-toggle="modal" data-target="#notReadyModal">Advanced</a>
+    <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#notReadyModal">Help</a>
+  </div>
 </div>
-<nav class="navbar navbar-dark bg-primary">
-<a class="navbar-brand" href="#">
-<img src="./images/48.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-NoTrace Settings
-</a>
 </nav>
 
+<!-- Main Content !-->
 
+<div class="mainContent">
+  <h1 class="heading">General Settings</h1>
+</div>
+
+
+<!-- Modals !-->
+
+
+
+<div class="modal fade" id="notReadyModal" tabindex="-1" role="dialog" aria-labelledby="notReadyModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Page not ready</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>This page is currently not ready yet! Please check back in the next update</p>
+      </div>
+    </div>
+  </div>
+</div>
 
   </body>
 

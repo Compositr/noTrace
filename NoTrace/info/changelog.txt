@@ -22,6 +22,16 @@ background
 Changes
 -------------------------
 
+1.6.0 Dev Release 6 (1.6.0 Dev 6)
+Changed way settings page looks
+Changed modal
+
+1.6.0 Dev Release 5 (1.6.0 Dev 5)
+Added working navbar to options page
+Added General settings page
+
+
+
 1.6.0 Dev Release 4 (1.6.0 Dev 4)
 Added modals to some areas of page
 Added bootstrap JS.

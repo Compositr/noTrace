@@ -1,3 +1,9 @@
 body {
+  min-width: 8000px;
+}
+.heading {
+  font-size: 24px;
+  padding-left: 12px;
+  padding-top: 32px;
 
 }

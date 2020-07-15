@@ -17,6 +17,7 @@ body {
 .heading {
   text-align: center;
   font-size: 18px;
+  padding: 3px;
 
 }
 .top-heading {
@@ -36,5 +37,5 @@ body {
 
 .iconButton {
   float: right;
-  
+
 }
