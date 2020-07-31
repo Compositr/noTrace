@@ -22,6 +22,19 @@ background
 Changes
 -------------------------
 
+1.6.0 Beta Release 2 (1.6.0 Beta 2)
+Code optimisations
+Removed unused debug section in Chrome options
+Settings page not displaying should be fixed.
+Got rid of some in-progress alerts
+
+
+1.6.0 Dev Release 7 (1.6.0 Dev 7)
+Some code optimisations
+Added wiki link in info\docs folder
+Added some rough documentation into the info\docs folder
+
+
 1.6.0 Dev Release 6 (1.6.0 Dev 6)
 Changed way settings page looks
 Changed modal

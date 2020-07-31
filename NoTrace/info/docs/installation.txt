@@ -1,0 +1,19 @@
+=========================
+Installation Instructions
+=========================
+
+
+-------------------------
+Overview
+-------------------------
+This is a shortened and summarised version of the install instructions, which can be found on the wiki, hosted on GitHub.
+See the full version here: Github.com/CoolJim/NoTrace/wiki/installation
+***
+Due to Google locking down chrome, it has become harder to install extensions not on the Google Chrome Webstore. You
+will need to follow the instruction word for word as installing 3rd party exetensions can easily mess something up.
+***
+
+-------------------------
+Getting NoTrace
+-------------------------
+
