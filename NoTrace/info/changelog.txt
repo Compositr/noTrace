@@ -22,6 +22,12 @@ background
 Changes
 -------------------------
 
+1.6.0 Beta Release 3 (1.6.0 Beta 3)
+Changed how we release stuff
+Removed unneeded spacing on chrome page.
+Slightly changed settings page.
+
+
 1.6.0 Beta Release 2 (1.6.0 Beta 2)
 Code optimisations
 Removed unused debug section in Chrome options
