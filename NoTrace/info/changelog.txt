@@ -17,10 +17,16 @@ effect on anything else. This could be a GUI change or a processing change. Fina
 don't affect the user experience, but instead fix a bug or change how the software operates behind the scene, or in the
 background
 
+Key:
+FR = Full release
+R-n (where n is a number) = n-th release of the original (x.y.0)
 
 -------------------------
 Changes
 -------------------------
+
+1.6.0 (1.6.0 FR)
+Get rid of options/settings menu
 
 1.6.0 Beta Release 3 (1.6.0 Beta 3)
 Changed how we release stuff
