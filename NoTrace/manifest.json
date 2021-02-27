@@ -3,7 +3,6 @@
   "version": "1.6.0",
   "description": "Remove your cookies, browser history and more in one click!",
   "permissions": ["activeTab", "declarativeContent", "storage", "browsingData", "tabs"],
-  "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false

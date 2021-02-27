@@ -1,5 +1,5 @@
 =========================                                                                     |========================|  
-Changelog                                                                                     | Current Stable: 1.5.1  |
+Changelog                                                                                     | Current Stable: 1.6.0  |
 =========================                                                                     |========================|
 
 
@@ -21,6 +21,9 @@ background
 -------------------------
 Changes
 -------------------------
+
+1.6.0 FR
+Full release, check release notes on GitHub.
 
 1.6.0 Beta Release 1
 Same as before, minor improvements
