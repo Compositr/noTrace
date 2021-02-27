@@ -1,26 +1,30 @@
-=========================                                                                     |========================|  
-Changelog                                                                                     | Current Stable: 1.6.0  |
-=========================                                                                     |========================|
-
+=========================
+Changelog
+=========================
+Current Stable: 1.6.1
+=========================
 
 -------------------------
 How we record changes
 -------------------------
 Currently, we have swapped over to Sematic 2.0.0. This swap does not change previous versions (before 1.5.0). Version
-numbers are represented in 3 digits, separated by periods (full stops). 
+numbers are represented in 3 digits, separated by periods (full stops).
 
 Sematic 2.0.0 Example
 [x.y.z]
 
 The first number (x) is a major change, often feature breaking or massive overhauls. Y is a minor change, without too much
 effect on anything else. This could be a GUI change or a processing change. Finally, Z is a bug fix or slight patch. These
-don't affect the user experience, but instead fix a bug or change how the software operates behind the scene, or in the 
+don't affect the user experience, but instead fix a bug or change how the software operates behind the scene, or in the
 background
 
 
 -------------------------
 Changes
 -------------------------
+
+1.6.1 (1.6.0 FR-BUG1)
+Fixed bugs in previous release. Recommend all users update now!
 
 1.6.0 FR
 Full release, check release notes on GitHub.
@@ -41,7 +45,7 @@ Changed spacing a little
 Fixed errors related to CSP on the cookie popup page
 Changed history erase to clear history of all time, instead of just one week ago
 Optimised JS
-Changed spacing between headings 
+Changed spacing between headings
 Fixed undefined errors
 Fixed weird errors with chromeLinks.html page
 Moved stuff around
