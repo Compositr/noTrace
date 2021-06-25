@@ -2,11 +2,13 @@
   "name": "NoTrace",
   "version": "1.6.0",
   "description": "Remove your cookies, browser history and more in one click!",
-  "permissions": ["activeTab", "declarativeContent", "storage", "browsingData", "tabs"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "browsingData",
+    "tabs"
+  ],
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
