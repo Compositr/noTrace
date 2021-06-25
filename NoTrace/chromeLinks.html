@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel = "stylesheet"
- type = "text/css"
- href = "popup.css" />
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="popup.css" />
     <script src="chromelinks.js"></script>
-</head>
-<body>
-<h1 class="top-heading" id="chromeHeading">Chrome Options</h1>
-<br/>
-<br/>
-<div class="col text-center">
-<nav class="nav nav-pills nav-fill">
-  <a class="nav-link" href="popup.html">NoTrace Page</a>
-  <a class="nav-link active" href="chromeLinks.html">Chrome Options</a>
-</nav>
-
-</div>
-<div class="col text-center">
-<br/>
-<p class="heading">Settings</p>
-<button type="button" class="btn btn-secondary" id="chromeSettings">Chrome Settings</button>
-<br/>
-<br/>
-<p class="heading">Experiments</p>
-  <button type="button" class="btn btn-danger" id="flags">Chrome Experiments</button>
-</div>
-</body>
-
-
+  </head>
+  <body>
+    <h1 class="top-heading" id="chromeHeading">Chrome Options</h1>
+    <br />
+    <br />
+    <div class="col text-center">
+      <nav class="nav nav-pills nav-fill">
+        <a class="nav-link" href="popup.html">NoTrace Page</a>
+        <a class="nav-link active" href="chromeLinks.html">Chrome Options</a>
+      </nav>
+    </div>
+    <div class="col text-center">
+      <br />
+      <p class="heading">Settings</p>
+      <button type="button" class="btn btn-secondary" id="chromeSettings">
+        Chrome Settings
+      </button>
+      <br />
+      <br />
+      <p class="heading">Experiments</p>
+      <button type="button" class="btn btn-danger" id="flags">
+        Chrome Experiments
+      </button>
+      <!-- COMBAK: FINISH this section -->
+      <p class="heading">Extension</p>
+      <a href="chrome://extensions"
+        ><button class="btn btn-outline-primary" id="ext">
+          Manage Chrome Extensions
+        </button></a
+      >
+    </div>
+  </body>
 </html>

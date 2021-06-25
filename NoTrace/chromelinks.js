@@ -21,6 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  var linkflags = document.getElementById('ext');
+  linkflags.addEventListener('click', () => {
+    openExt()
+  })
+})
 
 
 
@@ -36,4 +42,8 @@ function openFlagsPage() {
 // chrome settings page (open)
 function openChromePage() {
   chrome.tabs.create({url: "chrome://settings"})
+}
+
+function openExt() {
+  chrome.tabs.create({url: "chrome://extensions"})
 }
